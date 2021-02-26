@@ -65,6 +65,36 @@
             "driver": "SQLite",
             "name": "invoice_37_line_item_count.sql",
             "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "line_items_per_invoice.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "line_item_track.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "line_item_track_artist.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "country_invoices.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "playlists_track_count.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
         }
     ]
 }
