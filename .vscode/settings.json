@@ -1,0 +1,70 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "database",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "non_usa_customers.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "brazil_customers.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "brazil_customers_invoices.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sales_agents.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "unique_invoice_countries.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sales_agent_invoices.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "invoice_totals.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "total_invoices_{year}.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "total_sales_{year}.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "invoice_37_line_item_count.sql",
+            "database": "${workspaceFolder:chinook}/Chinook_Sqlite.sqlite"
+        }
+    ]
+}
